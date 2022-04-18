@@ -159,6 +159,9 @@ input[type=checkbox]{
 
 /* APPLYING MEDIA QUERIES */
 @media (max-width: 768px) {
+	nav img{
+    width:180px;
+}
    .menu {
         display:none;
         position: absolute;
