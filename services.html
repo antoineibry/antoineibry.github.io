@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Math with Antoine</title>
+        <meta name="description" content="Math with Antoine">
+        <meta name="keywords" content="Rates,Tutoring prices in Lebanon,Private,Tutoring,Antoine Ibry,Services,Student,Math,Physics,Chemistry,Lebanese,Lebanon">
+        <meta name="author" content="Antoine Ibry">
+        <link rel="stylesheet" href="style.css">
+        <link rel="icon" type="image/x-icon" href="images/studyBuddyFvicon.svg">
+        <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400&display=swap" rel="stylesheet">
+    </head>
+
+    <body>
+        <nav class="navbar">
+            <a href="index.html"><img src="images/Math with antoine logo.png" alt=""></a>
+            
+            <ul class="nav-links">
+              <!-- USING CHECKBOX HACK -->
+              <input type="checkbox" id="checkbox_toggle" />
+              <label for="checkbox_toggle" class="hamburger">&#9776;</label>
+              <!-- NAVIGATION MENUS -->
+              <div class="menu">
+                <li><a href="about.html">About</a></li>
+                <li class="now"><a href="services.html">Services</a></li>
+                <li><a href="booking.html">Booking</a></li>
+                <!-- <li><a href="packages.html">Packages</a></li> -->
+                <li><a href="contactUs.html">Contact Us</a></li>
+              </div>
+            </ul>
+        </nav>
+
+        <br><br>
+
+        <section class="headerImg">
+            <h1>Services</h1>
+        </section>
+
+        <section class="container servicesSection1 section-margin ">
+            <div class="row mt-4">
+                <div class="col-sm-12 col-md-6 col-lg-4 ms-auto me-auto mt-4">
+                    <div class="card" style="height: 100%;">
+                        <h5 class="card-header ps-4" style="color: #0056d2; font-weight: bold; text-align: center;">Courses</h5>
+                        <div class="card-body">
+                          <div class="d-flex align-items-center">
+                            <img src="images/check.svg" alt="price tag" width="32px">
+                            <p class="ms-4 mb-0">Math</p>
+                          </div>
+                          <div class="d-flex align-items-center mt-3">
+                            <img src="images/check.svg" alt="price tag" width="32px">
+                            <p class="ms-4 mb-0">Physics (on demand)</p>
+                          </div>
+                          <div class="d-flex align-items-center mt-3">
+                            <img src="images/check.svg" alt="price tag" width="32px">
+                            <p class="ms-4 mb-0">Chemistry (on demand)</p>
+                          </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-sm-12 col-md-6 col-lg-4 ms-auto me-auto mt-4">
+                    <div class="card" style="height: 100%;">
+                        <h5 class="card-header ps-4" style="color: #0056d2; font-weight: bold; text-align: center;">Classes</h5>
+                        <div class="card-body">
+                          <div class="d-flex align-items-center">
+                            <img src="images/check.svg" alt="price tag" width="32px">
+                            <p class="ms-4 mb-0">Grades 7-8-9</p>
+                          </div>
+                          <div class="d-flex align-items-center mt-3">
+                            <img src="images/check.svg" alt="price tag" width="32px">
+                            <p class="ms-4 mb-0">S1 - Bac S - Bac H</p>
+                          </div>
+                          <div class="d-flex align-items-center mt-3">
+                            <img src="images/check.svg" alt="price tag" width="32px">
+                            <p class="ms-4 mb-0">SG - SV - SE - LH</p>
+                          </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="col-sm-12 col-md-6 col-lg-4 ms-auto me-auto mt-4">
+                    <div class="card" style="height: 100%;">
+                        <h5 class="card-header ps-4" style="color: #0056d2; font-weight: bold; text-align: center;">Methods</h5>
+                        <div class="card-body">
+                          <div class="d-flex align-items-center">
+                            <img src="images/check.svg" alt="price tag" width="32px">
+                            <p class="ms-4 mb-0">Online</p>
+                          </div>
+                          <div class="d-flex align-items-center mt-3">
+                            <img src="images/check.svg" alt="price tag" width="32px">
+                            <p class="ms-4 mb-0">In-person</p>
+                          </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="container section-margin servicesSection">
+            <div class="servicesText">
+                <p>
+                    We don't use boring, traditional powerpoints for online sessions. Our sessions are 100% interactive.
+                    <br><br>
+                    Everything is written and explained during the session, all along with the student's participation in exercise-solving.
+                </p>
+            </div>
+            <div class="modes ">
+                <div id="modeOn" class="mode" style="display:block"></div>
+                <div id="modeOff" class="mode" style="display:none"></div>
+                <label class="switch mt-3" href="javascript:;" onmousedown="toggleDiv('mode');">
+                    <input type="checkbox">
+                    <span class="slider round"></span>
+                </label>
+            </div>
+        </section>
+
+        <script>
+            function toggleDiv(divid){
+                varon = divid + 'On';
+                varoff = divid + 'Off';
+            
+                if(document.getElementById(varon).style.display == 'block'){
+                    document.getElementById(varon).style.display = 'none';
+                    document.getElementById(varoff).style.display = 'block';
+                }
+            
+                else{  
+                    document.getElementById(varoff).style.display = 'none';
+                    document.getElementById(varon).style.display = 'block';
+                }
+            } 
+        </script>
+
+        <div class="footer-basic">
+          <footer>
+            <div class="social">
+                <a href="https://www.instagram.com/antoineibry" target="_blank"><i class="fab fa-instagram"></i></a>
+                <a href="https://www.facebook.com/antoineibry" target="_blank"><i class="fab fa-facebook-f"></i></a>
+                <a href="https://www.linkedin.com/in/antoine-ibry"  target="_blank"><i class="fab fa-linkedin-in"></i></a>
+                <a href="mailto:antoine.ibry@outlook.com" target="_blank"><i class="fas fa-envelope"></i></a>
+            </div>
+            <ul class="list-inline">
+                <li class="list-inline-item"><a href="about.html">About</a></li>
+                <li class="list-inline-item"><a href="services.html">Services</a></li>
+                <li class="list-inline-item"><a href="booking.html">Booking</a></li>
+                <!-- <li class="list-inline-item"><a href="packages.html">Packages</a></li> -->
+                <li class="list-inline-item"><a href="contactUs.html">Contact Us</a></li>
+            </ul>
+            <p class="copyright">Antoine Ibry © 2021 <br> <br> Created by Antoine Ibry & <a style="text-decoration: none; color: #aaa;" href="https://www.instagram.com/marietheresemelhem/" target="_blank">Marie-Therese Melhem</a></p>
+        </footer>
+        </div>
+    </body>
+</html>
